@@ -1,3 +1,9 @@
+<?php
+$name = htmlspecialchars($_GET['name'] ?? '');
+$email = htmlspecialchars($_GET['email'] ?? '');
+$message = htmlspecialchars($_GET['message'] ?? '');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,11 +26,15 @@
 
 <body>
     <div class="container">
+        <p><a href="index.html">Back to Home</a></p>
+        <p><a href="form.html">Back to Form</a></p>
+
         <h1>Form Submission Results</h1>
+
         <div id="result">
-            <p><strong>Name:</strong> <code>Your Name will appear here</code></p>
-            <p><strong>Email:</strong> <code>Your Email will appear here</code></p>
-            <p><strong>Message:</strong> <code>Your Message will appear here</code></p>
+            <p><strong>Name:</strong> <?php echo $name; ?></p>
+            <p><strong>Email:</strong> <?php echo $email; ?></p>
+            <p><strong>Message:</strong> <?php echo $message; ?></p>
         </div>
     </div>
 </body>

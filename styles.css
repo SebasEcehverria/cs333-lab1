@@ -1,0 +1,57 @@
+/* Change these colors and fonts to make the page your own. */
+body {
+    margin: 0;
+    background-color: #f1f5f4;
+    color: #253630;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 48px 20px;
+    background-color: #245747;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 10px;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin: 0;
+}
+
+/* The width limit keeps the text easy to read on larger screens. */
+main {
+    max-width: 720px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #d5e1dc;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #245747;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    padding: 10px 20px 30px;
+    text-align: center;
+}
